@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import CourseDetails from './pages/CourseDetails';
 import Dashboard from './pages/Dashboard';
 import Login from './components/Login';
+import NotFound from './components/NotFound';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       </Route>
       <Route path='/dashboard' Component={Dashboard}/>
       <Route path='/login' Component={Login}/>
+      <Route path='*' Component={NotFound}/>
       {/* <Route path='*' Component={<h2>404 not found</h2>}/> */}
     </Routes>
   );
