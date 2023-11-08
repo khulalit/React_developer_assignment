@@ -1,6 +1,9 @@
 # React App Functionality Overview
+[App link](https://react-assignment-al.netlify.app)
 
 ## Features
+
+[Usage Video link](https://www.veed.io/view/37271a11-0b52-46de-8337-8bd6edbdc9ad?sharingWidget=true&panel=share)
 
 ### 1. Infinite Scrolling
 
