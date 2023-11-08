@@ -18,7 +18,7 @@ export default function Header() {
             <span className="font-semibold text-xl tracking-tight">Courses</span>
             <div className="block lg:hidden">
                 <button className="flex items-center px-3 py-2 border rounded text-teal-lighter border-teal-light hover:text-white hover:border-white" onClick={()=>setOpenMenu(prevState=>!prevState)}>
-                   <img src={MenuIcon} alt='menu icon' className='bg-red-100'/>
+                   <img src={MenuIcon} alt='menu icon' className=''/>
                 </button>
             </div>
             {openMenu && 

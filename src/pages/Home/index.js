@@ -38,7 +38,7 @@ export const Home = ({ fetchCourses, courses, loading, error, hasMore }) => {
                 {courses?.map((course, index) => {
 
                     if(courses.length > (index+1)){
-                        return <li key={index} ref={lastElementOfCourse} className='basis-[250px] bg-red-100 grow'>
+                        return <li key={index} ref={lastElementOfCourse} className='basis-[250px] grow'>
                         <Link to={`courses/${index}`} className='w-full'>
                         {/* {course.id} {course.title} */}
                             <CourseCard name={course.name} discription={course.description} instructor={course.instructor}/>
